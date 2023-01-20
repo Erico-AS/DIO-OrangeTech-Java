@@ -1,8 +1,21 @@
 public class Operadores {
     public static void main(String [] args) {
         int numero = 10;
+        boolean variavel = true;
+        System.out.println(numero);
 
-        System.out.println(- numero); // Inverte negativamente
-        System.out.println(+ numero); // Deixa positivo
+        numero = - numero;
+        System.out.println(numero); // Inverte negativamente
+
+        numero = - numero;
+        System.out.println(numero); // '-' significa multiplicar por -1 e '+' significa multiplicar por +1
+
+        numero -= 1;
+        System.out.println(numero);
+
+        numero += 1;
+        System.out.println(numero);
+
+        System.out.println(!variavel);
     }
 }
