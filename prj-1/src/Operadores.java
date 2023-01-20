@@ -29,7 +29,11 @@ public class Operadores {
         System.out.println(situacao);
 
         // 'equal' serve para comparar conteúdo
+
         //-------------------------------------------------
+
+        //&& == 'E'
+        //|| == 'OU'
 
 
     }
