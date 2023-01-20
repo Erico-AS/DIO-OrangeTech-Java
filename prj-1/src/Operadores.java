@@ -17,5 +17,20 @@ public class Operadores {
         System.out.println(numero);
 
         System.out.println(!variavel);
+        
+        //-------------------------------------------------
+        String nomeUm = "érico";
+        String nomeDois = new String("érico");
+
+        Boolean situacao = nomeUm == nomeDois;
+        System.out.println(situacao);
+
+        situacao = nomeUm.equals(nomeDois);
+        System.out.println(situacao);
+
+        // 'equal' serve para comparar conteúdo
+        //-------------------------------------------------
+
+
     }
 }
